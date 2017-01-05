@@ -1,0 +1,32 @@
+<head>
+  <title>trombi</title>
+</head>
+
+<body>
+  <h1>Trombi !</h1>
+
+     <div class="montab">
+    		<label for="">Prénom :</label>
+    		<input type="text" id="chp1">
+    		<input type="button" id="sub">
+    	</div> 
+
+	 <ul>
+	 	 
+		  {{#each nom_eleves}}
+		  <li>
+		   {{nom}}
+		  </li> 
+		  {{/each}}
+	    
+    </ul>
+
+ 
+</body>
+
+<template name="trombi">
+
+	{{nom}}	
+
+</template>
+
